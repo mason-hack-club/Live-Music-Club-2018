@@ -5,7 +5,7 @@
     $mailFrom = $_POST['mail'];
     $message = $_POST['message'];
     
-    $mailTo = "katherine.hu@masonohioschool.com";
+    $mailTo = "";
     $headers = "From: ".$mailFrom;
     $txt = "You have recieved a message from ".$name.".\n\n".$message;
     
