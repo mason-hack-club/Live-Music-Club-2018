@@ -1,10 +1,10 @@
 .nav {
-  background-color: gray;
+  background-color: #000000;
   overflow: hidden;
 }
 
 .nav a {
-  color: white;
+  color: #ffffff;
   text-align: center;
   padding: 10px, 16px;
   font-size: 20px;
