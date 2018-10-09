@@ -15,34 +15,35 @@ p {
   font-size: 20px;
 }
 
-.nav {
+/* ------------------------------ Navigation Bar ------------------------------ */
+
+.nav { /* navbar background */
   background-color: #333333;
-  display: block;
-  height: 56px;
+  display: block; /* sets navbar as a box with adjustable height + width */
+  height: 56px; /* sets height of navbar */
 }
 
-.nav img {
-  float: left;
-  text-align:center;
-  padding: 3px;
+.nav img { /* navbar logo */
+  float: left; /* sets logo apart so it doesn't mess with link alignment */
+  padding: 3px; /* leaves empty space around logo for navbar to show through */
 }
 
-.nav a {
+.nav a {  /* navbar links */
   color: #cccccc;
-  text-align: center;
-  text-decoration: none;
-  font-family: Monospace;
   font-size: 28px;
-  letter-spacing: 5px;
-  line-height: 56px;
-  padding-left: 10px;
-  padding-right: 10px;
+  font-family: Monospace;
+  text-decoration: none; /* removes the underline that comes default with links */
+  letter-spacing: 5px; /* increases spacing between letters by 5px */
+  line-height: 56px; /* aligns links to vertical center of navbar */
+  padding-left: 10px; /* sets horizontal spacing between links */
+  padding-right: 10px; /* sets horizontal spacing between links */
 }
 
-.nav a:hover {
+.nav a:hover { /* changes color of navbar links when hovered over */
   color: coral; 
 }
 
-.nav a.current {
+.nav a.current { /* sets color of navbar link for current page */
   color: cornflowerblue; 
 }
+/* ---------------------------------------------------------------------------- */
