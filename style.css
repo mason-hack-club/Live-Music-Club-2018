@@ -32,7 +32,7 @@ p {
   text-align: center;
   text-decoration: none;
   font-family: Monospace;
-  font-size: 26px;
+  font-size: 28px;
   letter-spacing: 5px;
   line-height: 56px;
   padding-left: 10px;
@@ -43,6 +43,6 @@ p {
   color: orange; 
 }
 
-.nav a.active {
+.nav a.current {
   color: cornflowerblue; 
 }
