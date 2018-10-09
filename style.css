@@ -1,24 +1,42 @@
 body {
-  background-color: yellow;
-  
+  margin: 0;
+  background-color: rgb(221, 221, 197);
+  font-family:Monospace;
+  letter-spacing: 1px;
 }
 
 h1 {
-  color: orange; 
+  color: dodgerblue;
+  font-size: 46px;
+  letter-spacing: 6px;
+}
+
+p {
+  font-size: 20px;
 }
 
 .nav {
-  background-color: #000000;
-  overflow: hidden;
-  padding: 50px, 50px;
+  background-color: #333333;
+  display: block;
+  height: 56px;
+}
+
+.nav img {
+  float: left;
+  text-align:center;
+  padding: 3px;
 }
 
 .nav a {
-  color: #ffffff;
+  color: #cccccc;
   text-align: center;
-  padding: 50px, 50px;
-  font-size: 20px;
   text-decoration: none;
+  font-family: Monospace;
+  font-size: 26px;
+  letter-spacing: 5px;
+  line-height: 56px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .nav a:hover {
@@ -26,5 +44,5 @@ h1 {
 }
 
 .nav a.active {
-  color: teal; 
+  color: cornflowerblue; 
 }
