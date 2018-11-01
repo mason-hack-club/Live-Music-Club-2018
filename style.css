@@ -16,6 +16,7 @@ p {
 }
 
 /* ------------------------------members page images---------------------------*/
+body {margin:25px;
 div.polaroid {
     width: 200px;
     background-color: white;
@@ -24,6 +25,7 @@ div.polaroid {
 div.pcontainer {
     text-align: center;
     padding: 10px 20px;
+}
 }
 
 
