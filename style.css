@@ -49,7 +49,7 @@ div.pcontainer {
 .nav { /* navbar background */
   background-color: #333333;
   display: block; /* sets navbar as a box with adjustable height + width */
-  height: 50px; /* sets height of navbar */
+  height: 56px; /* sets height of navbar */
 }
 
 .nav img { /* navbar logo */
